@@ -23,4 +23,4 @@ My daily notes: [learning-log](learning-log)
 Presales engineering · ITSM & Agile consulting · ITIL 4 · SAFe 6
 
 ## 📫 Contact
-[LinkedIn](https://www.linkedin.com/in/armand-luziau-altruon-solution-engineer/) · your.email@example.com
+[LinkedIn](https://www.linkedin.com/in/armand-luziau-altruon-solution-engineer/) 
