@@ -1,0 +1,55 @@
+# 📓 Day 01 — 2026-11-09
+
+| Phase | Week | Time | Status |
+|---|---|---|---|
+| 1 — Terminal, Git & GitHub | 1 / 17  | ✅ Done |
+
+> [!NOTE]
+> First day of my 17-week coding sprint. Goal for Phase 1: be comfortable with the terminal and push my work to GitHub.
+
+## 🧠 Learned
+
+### Terminal (macOS / zsh)
+
+| Command | What it does |
+|---|---|
+| `pwd` | Show the current folder |
+| `ls` / `ls -la` | List files (including hidden ones) |
+| `cd folder` / `cd ..` | Enter a folder / go up one level |
+| `mkdir name` | Create a folder |
+| `touch file` | Create an empty file |
+| `cat file` | Print a file's contents |
+| `mv old new` | Rename or move a file |
+| `echo "x" > file` | Write to a file (replaces content) |
+| `echo "x" >> file` | Append to a file |
+
+### Git setup
+
+```bash
+git config --global user.name "Armand"
+git config --global user.email "<id>+<username>@users.noreply.github.com"
+git config --global init.defaultBranch main
+```
+
+- GitHub's **no-reply email** keeps my real address private
+- GitHub needs a **personal access token** instead of a password in the terminal
+
+### Other
+- Run Python on Mac with `python3`, not `python`
+- Set up **Proton Pass** as my password manager (2FA, recovery phrase, 2 vaults)
+- Chrome: `Cmd + 1–9` jumps straight to a tab
+
+## 🛠️ Built
+
+- [x] Created `learning-log/` with a `week-01/` subfolder
+- [x] Created and ran my first Python file
+
+```python
+print("Hello, Armand")
+```
+
+## 🧱 Stuck on
+
+> [!WARNING]
+> **`zsh: command not found: code`**
+> **Fix:** VS Code → `Cmd + Shift + P` → *Shell Command: Install 'code' command in PATH* →
